@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .image
+        {
+            width: 100%;
+            text-align: center;
+        }
+
+        div
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        div img
+        {
+            width: 300px;
+            height: 200px;
+            border: 2px;
+            box-shadow: 10px;
+            border-radius: 13px;
+            cursor: pointer;
+            margin: 10px;
+            transition: 400ms;
+        }
+
+        div img:hover
+        {
+            transform: scale(1.03);
+        }
+    </style>
+</head>
+<body>
+    <div id="image">
+        <img src="Images/images1.jpeg">
+        <img src="Images/images2.jpeg">
+        <img src="Images/images3.jpeg">
+        <img src="Images/images4.jpeg">
+        <img src="Images/images5.jpeg">
+        <img src="Images/images6.jpeg">
+        <img src="Images/images7.jpeg">
+        <img src="Images/images8.jpeg">
+        <img src="Images/images9.jpeg">
+        <img src="Images/images10.jpeg">
+        <img src="Images/images11.jpeg">
+        <img src="Images/images12.jpeg">
+    </div>
+</body>
+</html>
